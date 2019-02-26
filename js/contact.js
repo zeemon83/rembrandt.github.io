@@ -4,8 +4,8 @@ const address = document.getElementById('address');
 
 button.addEventListener('click', () => {
   if (address.innerHTML == '') {
-    img.src = 'img/compute2.jpg';
-    address.innerHTML = 'zeemon777@gmail.com';
+    img.src = 'img/braided-hair.jpg';
+    address.innerHTML = 'rembrandt.peel@gmail.com';
     // button.style.marginTop = '0';
 
   } else {

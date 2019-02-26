@@ -8,7 +8,7 @@ body, html {
 	overflow-x: hidden;
 	overflow-y: hidden;
 }
-video {
+video, img {
 	/* background-image: url(img/profile2.jpg); */
 	position: absolute;
 	top: 50%;
