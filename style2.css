@@ -38,7 +38,7 @@ h1 {
 
 .container h1 {
 	color: white;
-	text-shadow: rgb(83, 83, 83) 1px 1px 2px;
+	text-shadow: rgb(0, 0, 0) 1px 1px 1px;
 }
 
 main {
@@ -116,6 +116,7 @@ nav a {
 
 .head-padding {
 	font-size: 3.5em;
+	text-transform: uppercase;
 	margin-top: 100px;
 	
 	
