@@ -7,8 +7,8 @@ body, html {
 	padding: 0;
 	/* background-color: #f4f4f4; */
 
-	max-width: ;
-	margin: auto;
+	/* max-width: ; */
+	/* margin: auto; */
 
 }
 html {
@@ -311,7 +311,7 @@ nav a {
 }
 
 .text-col {
-	padding: 3% 6% 0 6%;
+	padding: 3% 6% 3% 6%;
 	width: 90%;
 }
 
@@ -474,13 +474,8 @@ padding-top: 20px;
 /* ====================  */
 /* sticky menu bar */
 #uberbar    {
-	max-width: ;
-     margin: auto;
-    /*border-bottom:1px solid #d8d8d8; */
-    /* background: white; */
-		/* background-color: #e5e5e5; */
+		max-width: 100%;
 		background-color: #f4f4f4;
-    /* padding:10px 20px; */
     position:fixed;
     top:0;
     left:0;
@@ -576,29 +571,25 @@ padding-top: 20px;
 }
 
 @media (max-width: 769px) {
-	.navnav {
-		display: block;
-		/* margin-right: 590px; */
+
+	body {
+		/* margin-left: 15px; */
+		
+		
 	}
 	.nav-a {
-		display: inline;
-		margin: 0;
+		
+		
 		padding: 5px;
+		
 
 		vertical-align: bottom;
-		/* width: 30%; */
-	}
-
-	.nav {
-		/* padding-right: 210px; */
-	}
-
-	h1, a {
-		/* margin: 0; */
+	
 	}
 
 	main {
-		margin-top: 57px;
+		
+		margin-top: 33px;
 	}
 	.container-gallery {
 		grid-template-columns: repeat(1, 1fr);
@@ -606,29 +597,20 @@ padding-top: 20px;
 	#img {
 		max-width: 250px;
 		padding-top: 3%;
-		/* max-width: 500px; */
 	}
 	.card1, .card2 {
 		min-height: 400px;
 	}
 	.services-card {
-	
 		grid-template-columns: repeat(2, 1fr);
-		/* grid-column-gap: 35px;
-		padding-left: 20px;
-		padding-right: 10px; */
-		/* background-color: #f2f2f2; */
+
 	}
-	
-
-
-
 
 }
 
 @media (max-width: 500px) {
 	main {
-		margin-top: 55px;
+		margin-top: 30px;
 	}
 
 	.nav-a {
@@ -653,6 +635,8 @@ padding-top: 20px;
 		/* background-color: #f2f2f2; */
 	}
 	
+.head-padding {
+	height: 200px;}
 
 
 
@@ -663,4 +647,7 @@ padding-top: 20px;
 	.nav-a {
 		font-size: 0.7em;
 	}
+	.head-padding {
+		height: 150px;}
+
 }
