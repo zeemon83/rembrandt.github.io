@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline|Kavivanar|Cutive+Mono');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline|Kavivanar|Roboto+Mono|Cutive+Mono');
 * {
 	box-sizing: border-box;
 }
@@ -45,13 +45,17 @@ h1 {
 	margin: 0;
 }
 
+#headboy {
+	height: 20px;
+}
+
 
 
 
 
 #child {
 	z-index: 2;
-	font-family:'Cutive Mono', helvetica sans-serif ;
+	font-family:'Roboto Mono', helvetica sans-serif ;
 	line-height: .7em;
 	color: white;
 	text-shadow: #494949 1px 1px 1px;
@@ -73,6 +77,7 @@ h1 {
 	/* height: 200px; */
 	font-size: 3em;
 	text-transform: uppercase;
+	
 }
 
 #headerMain2 {

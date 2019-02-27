@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline|Kavivanar|Cutive+Mono|Nova+Cut|Overpass+Mono|Share+Tech+Mono|Arvo|Cardo|Crimson+Text|Nanum+Gothic|Padauk|Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline|Kavivanar|Cutive+Mono|Nova+Cut|Overpass+Mono|Share+Tech+Mono|Arvo|Cardo|Crimson+Text|Nanum+Gothic|Padauk|Nixie+One|Source+Code+Pro');
+
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+1p|Major+Mono+Display|Monda|Old+Standard+TT|Oxygen|Roboto+Mono|Ubuntu');
+
 body, html {
 	margin: 0;
 	padding: 0;
@@ -14,12 +17,12 @@ html {
 nav {
 
 	background-color: #f4f4f4;
-	padding: .5% 2%;
+	padding: .5% 2% .7%;
 }
-a, p, li {
+ p, li {
 	text-decoration: none;
 	color: black;
-	font-family:'cutive mono', helvetica sans-serif ;
+	font-family: 'M PLUS 1p', helvetica sans-serif ;
 }
 ul {
 	padding: 0;
@@ -28,8 +31,13 @@ ul {
 li {
 	margin: 1em 0;
 }
+a {
+	text-decoration: none;
+	color: black;
+	font-family:'Roboto Mono', helvetica sans-serif ;
+}
 h1, h2 {
-	font-family:'cutive mono', helvetica sans-serif ;
+	font-family:'Roboto Mono', helvetica sans-serif ;
 }
 h1 {
 	margin:6.5px 0;
@@ -104,9 +112,10 @@ nav a {
 /*PARALAX WINDOW jquery ================== */
 .parallax-window {
 	/* margin: 20px; */
-	height: 800px;
+	height: 600px;
 	background: transparent;
 	z-index: 300;
+	overflow: hidden;
 }
 
 .parallax-marg {
@@ -115,8 +124,10 @@ nav a {
 }
 
 .head-padding {
-	font-size: 3.5em;
-	text-transform: uppercase;
+	height: 300px;
+	
+	/* font-size: 3.5em;
+	text-transform: uppercase; */
 	margin-top: 100px;
 	
 	
