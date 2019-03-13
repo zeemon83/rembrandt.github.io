@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Hairline|Kavivanar|Cutive+Mono|Nova+Cut|Overpass+Mono|Share+Tech+Mono|Arvo|Cardo|Crimson+Text|Nanum+Gothic|Padauk|Nixie+One|Source+Code+Pro');
 
-@import url('https://fonts.googleapis.com/css?family=M+PLUS+1p|Major+Mono+Display|Monda|Old+Standard+TT|Oxygen|Roboto+Mono|Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+1p|Oxygen|Roboto+Mono|Ubuntu');
+
+@import url('https://fonts.googleapis.com/css?family=Barlow|Muli|PT+Sans|Quicksand');
+
 
 body, html {
 	margin: 0;
@@ -14,14 +17,11 @@ body, html {
 html {
 	height: 100%;
 }
-nav {
 
-	background-color: #f4f4f4;
-	padding: .5% 2% .7%;
-}
  p, li {
 	text-decoration: none;
 	color: black;
+	/* font-family: 'Oxygen', helvetica sans-serif ; */
 	font-family: 'M PLUS 1p', helvetica sans-serif ;
 }
 ul {
@@ -34,11 +34,19 @@ li {
 a {
 	text-decoration: none;
 	color: black;
-	font-family:'Roboto Mono', helvetica sans-serif ;
+	
 }
-h1, h2 {
-	font-family:'Roboto Mono', helvetica sans-serif ;
+
+h1, h2, h3, a {
+	font-family:'Barlow', helvetica sans-serif ;
+	color: #424242;
+
+	/* font-family:'Roboto Mono', helvetica sans-serif ; */
 }
+h2 {
+	font-size: 2em;
+}
+
 h1 {
 	margin:6.5px 0;
 	
@@ -78,15 +86,35 @@ video {
 
 /* NAV MENU ======================= */
 
+a:hover{
+	/* background-color: rgba(245, 245, 245, 0.877); */
+	color: rgb(206, 100, 51);
+	/* text-shadow: rgb(168, 174, 214) .5px .5px; */
+	/* box-shadow: #cccccc 1px 1px 1px ; */
+}
+
+nav {
+	background-color: white;
+	/* padding: .5% 2% .7%; */
+}
+
 nav a {
 	background-color: white;
 
 }
+.nav-logo {
+	height: 40px;
+	/* display: flex;
+	justify-content: flex-end; */
+  /* margin-right: 70px; */
+}
 
 nav a {
-	box-shadow: #cccccc 1px 1px 1px ;
+	/* box-shadow: #cccccc 1px 1px 1px ; */
+	
 }
-.nav-box a {
+
+.nav-box {
 	display: inline-block;
 
 	vertical-align: bottom;
@@ -95,24 +123,61 @@ nav a {
 	/* width: 30%; */
 }
 
+.nav-box2 {
+	display: flex;
+	justify-content: flex-start;
+	
+	flex-direction: row ;
+  /* margin-right: 70px; */
+}
+.nav-a {
+	justify-content: flex-end;
+
+}
+
+.nav-b {
+	/* align-content: center; */
+	margin-top: 7px;
+	margin-right: 20px;
+	margin-left: 10px;
+	/* justify-content: flex-start; */
+}
+
 
 .nav-h1 {
 	font-size: 2em;
 	padding-right: 10px;
-	padding-left: 5px;
+	/* padding-left: 5px; */
 	/* margin-right: 65px; */
 }
 .nav-a {
-
+	margin: 0 5px;
 	font-size: 1em;
 	padding: 16px 7px;
 	/* margin-right: 15px; */
 }
 
+/* ====================  */
+/* sticky menu bar */
+#uberbar    {
+	max-width: 100%;
+	/* background-color: #f4f4f4; */
+	position:fixed;
+	top:0;
+	left:0;
+	right: 0;
+	z-index:2000;
+	width: 100%;
+	margin: auto;
+	/* background-color: coral; */
+
+}
+
 /*PARALAX WINDOW jquery ================== */
 .parallax-window {
 	/* margin: 20px; */
-	height: 600px;
+	min-height: 500px;
+	/* height: 600px; */
 	background: transparent;
 	z-index: 300;
 	overflow: hidden;
@@ -124,7 +189,7 @@ nav a {
 }
 
 .head-padding {
-	height: 300px;
+	height: 150px;
 	
 	/* font-size: 3.5em;
 	text-transform: uppercase; */
@@ -282,21 +347,31 @@ nav a {
 	/* padding: 0 2%; */
 
 }
+
+.services-picture-card {
+max-width: 100%;
+
+size: cover;
+
+}
 .services-card-background {
-	/* background-color: lightgray; */
+	/* background-color: rgb(247, 247, 247); */
 }
 .services-card {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-column-gap: 35px;
+	grid-template-columns: repeat(3, 1fr);
+	/* grid-column-gap: 35px;
 	padding-left: 20px;
-	padding-right: 10px;
+	padding-right: 10px; */
 	/* background-color: #f2f2f2; */
 }
 
 .services-heading {
-	padding: 5%;
-	background-image: url(img/abstractarchitectural2.jpg);
+	padding: 2%;
+	/* background-image: url(img/black-and-white-gray.jpg); */
+	/* font-size: 1.5em; */
+	/* color: white; */
+	
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -310,9 +385,51 @@ nav a {
 	/* padding: 0 2%; */
 }
 
+.service-box-style {
+	padding: 0 20px;
+	
+}
+
+.service-box-heading {
+	/* background-color: #f0f0f0;
+	color: #424242;
+	padding: 10px; */
+
+
+}
+
+
+.service-box-style:hover {
+	background-color: rgb(245, 245, 245);
+	/* border-bottom: solid rgb(231, 231, 231) 1px;
+	border-right: solid rgb(231, 231, 231) 1px; */
+}
+
 .text-col {
 	padding: 3% 6% 3% 6%;
 	/* width: 90%; */
+}
+
+/* ===== review boxes ===== */
+.review-box-style {
+	color: #424242;
+	padding: 0 20px;
+	text-align: center;
+	background-color: hsl(0, 0%, 94%, 0.5);
+	/* margin: 5%; */
+	
+}
+
+.review-box-style h1 {
+	color: #ff3e31;
+	font-size: 3em;
+	font-family: 'Share Tech Mono' ;
+	/* Bungee+Hairline|Kavivanar|Cutive+Mono|Nova+Cut|Overpass+Mono|Share+Tech+Mono|Arvo|Cardo|Crimson+Text|Nanum+Gothic|Padauk|Nixie+One|Source+Code+Pro' */
+}
+
+.review-box-style h2, 
+.review-box-style h3 {
+	/* background-color: #f0f0f0; */
 }
 
 /* =====cards===== */
@@ -471,21 +588,7 @@ padding-top: 20px;
 	color: white;
 
 } */
-/* ====================  */
-/* sticky menu bar */
-#uberbar    {
-		max-width: 100%;
-		background-color: #f4f4f4;
-    position:fixed;
-    top:0;
-    left:0;
-    right: 0;
-    z-index:2000;
-    width: 100%;
-    margin: auto;
-    /* background-color: coral; */
 
-}
 
 /* ================ */
 /* FOOTER FOOTER */
@@ -587,6 +690,14 @@ padding-top: 20px;
 	
 	}
 
+	.nav-b {
+		
+		margin-top: 0px;
+		margin-right: 20px;
+		margin-left: 10px;
+		
+	}
+
 	main {
 		
 		margin-top: 33px;
@@ -605,6 +716,9 @@ padding-top: 20px;
 		grid-template-columns: repeat(2, 1fr);
 
 	}
+	.nav-box2 {
+		margin-right: 20px;
+	}
 
 }
 
@@ -612,10 +726,27 @@ padding-top: 20px;
 	main {
 		margin-top: 30px;
 	}
+	h1, h2 {
+		font-size: 1.5em;
+	}
 
 	.nav-a {
 		font-size: 0.9em;
 	}
+
+	.nav-b {
+		
+		margin-top: 2px;
+		margin-right: 2px;
+		margin-left: 10px;
+		
+	}
+
+	.nav-logo {
+		height: 25px;
+	}
+
+
 	#img {
 		max-width: 250px;
 		padding-top: 3%;
@@ -636,7 +767,12 @@ padding-top: 20px;
 	}
 	
 .head-padding {
-	height: 200px;}
+	height: 100px;
+}
+
+	.nav-box2 {
+		margin-right: 10px;
+	}
 
 
 
@@ -648,6 +784,6 @@ padding-top: 20px;
 		font-size: 0.7em;
 	}
 	.head-padding {
-		height: 150px;}
+		height: 80px;}
 
 }
