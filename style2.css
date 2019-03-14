@@ -115,9 +115,16 @@ nav a {
 }
 
 .nav-box {
-	display: inline-block;
+	/* display: grid; */
+	display: grid;
+	/* place-items: center; */
+	
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-gap: 40px;
+  grid-auto-rows: minmax(100px, auto); */
+	/* display: inline-block;
 
-	vertical-align: bottom;
+	vertical-align: bottom; */
 
 
 	/* width: 30%; */
@@ -125,22 +132,23 @@ nav a {
 
 .nav-box2 {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: flex-end;
 	
 	flex-direction: row ;
   /* margin-right: 70px; */
 }
 .nav-a {
 	justify-content: flex-end;
+	margin-right: 20px;
 
 }
 
 .nav-b {
 	/* align-content: center; */
 	margin-top: 7px;
-	margin-right: 20px;
+	/* margin-right: 20px; */
 	margin-left: 10px;
-	/* justify-content: flex-start; */
+	justify-content: left;
 }
 
 
