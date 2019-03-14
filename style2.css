@@ -184,6 +184,15 @@ nav a {
 /*PARALAX WINDOW jquery ================== */
 .parallax-window {
 	/* margin: 20px; */
+	min-height: 550px;
+	/* height: 600px; */
+	background: transparent;
+	z-index: 300;
+	overflow: hidden;
+}
+
+.parallax-window2 {
+	/* margin: 20px; */
 	min-height: 455px;
 	/* height: 600px; */
 	background: transparent;

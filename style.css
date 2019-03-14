@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow|Bungee+Hairline|Kavivanar|Roboto+Mono|Cutive+Mono');
+@import url('https://fonts.googleapis.com/css?family=Aldrich|Alfa+Slab+One|Archivo+Black|Cousine|Italiana|Julius+Sans+One|Playfair+Display+SC|Poiret+One|Press+Start+2P|Suranna');
 * {
 	box-sizing: border-box;
 }
@@ -52,7 +53,8 @@ h1 {
 
 #child {
 	z-index: 2;
-	font-family:'Roboto Mono', helvetica sans-serif ;
+	font-family:'Italiana', helvetica sans-serif ;
+	/* Aldrich|Archivo+Black|Cousine|Italiana|Julius+Sans+One|Playfair+Display+SC|Poiret+One|Press+Start+2P|Suranna */
 	line-height: .7em;
 	color: white;
 	text-shadow: #494949 1px 1px 1px;
