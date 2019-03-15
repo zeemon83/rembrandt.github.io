@@ -748,6 +748,10 @@ padding-top: 20px;
 		grid-template-columns: repeat(2, 1fr);
 
 	}
+
+	.services-heading {
+		padding: 5.5% 0 3% 0;
+	}
 	.nav-box2 {
 		margin-right: 20px;
 	}
