@@ -339,7 +339,7 @@ nav a {
 }
 
 .card1 {
-	background-image: url(img/bucketclimber.jpg);
+	background-image: url(img/stonework2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -354,7 +354,7 @@ nav a {
 
 }
 .card2 {
-	background-image: url(img/actionclimbing.jpg);
+	background-image: url(img/castle3.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -388,8 +388,10 @@ size: cover;
 	/* background-color: #f2f2f2; */
 }
 
+
+
 .services-heading {
-	padding: 2%;
+	padding: 4% 0 2% 0;
 	/* background-image: url(img/black-and-white-gray.jpg); */
 	/* font-size: 1.5em; */
 	/* color: white; */
